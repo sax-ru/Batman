@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,900&display=swap&subset=cyrillic"
           rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Бэтмен 2021 - страница о фильме</title>
 </head>
@@ -107,8 +108,14 @@
                         </p>
                     </div>
                     <div class="subscribe">
-                        <h4 class="text-title-2">Подпишитесь на обновления</h4>
-                        <input type="email" class="subscribe-input" placeholder="Ваш Email"><img src="./img/button-check.png" class="subscribe-check" alt="button-check">
+                        <h3 class="subscribe-title">Подпишитесь на обновления</h3>
+                        <form action="#" class="subscribe-form">
+                            <input type="text" class="subscribe-input" placeholder="Ваш Email">
+                            <button class="subscribe-button">
+                                <img src="./img/check.svg" alt="check">
+                            </button>
+                        </form>
+
                         <a href="#" class="banner">
                             <img src="./img/banner.jpg" alt="banner">
                         </a>
